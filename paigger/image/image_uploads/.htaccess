@@ -1,0 +1,9 @@
+# only allow files with the following extentions
+
+order allow,deny
+<Files ~ "\.(gif|jpe?g|png|GIF|JPE?G|PNG)$">
+   allow from all
+</Files>
+
+
+

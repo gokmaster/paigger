@@ -1,0 +1,6 @@
+
+# Deny web requests to all files and sub-folders in the folder in which this .htaccess file resides
+Deny from all
+
+
+

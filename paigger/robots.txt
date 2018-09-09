@@ -1,0 +1,16 @@
+
+# Disallow crawling of the following directories and its contents 
+User-agent: *
+disallow: /function/
+disallow: /html_form/
+disallow: /image/
+disallow: /js/
+disallow: /assets/
+
+
+
+# Block all images on this site from Google Images
+User-agent: Googlebot-Image
+Disallow: /
+
+

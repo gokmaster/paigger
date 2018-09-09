@@ -1,0 +1,47 @@
+.hidden_group_div {
+display:none;
+}
+
+#group_menu_div {
+margin-bottom: 10px;
+background-color: #fff;
+padding: 10px 3px 3px;
+border-top: solid 2px #d1d1e0;
+}
+
+.pendingUserDiv {
+display:inline-block;
+width: 115px;
+height: 198px;
+margin: 8px 10px;
+overflow: hidden;
+}
+
+/* -----------buttons------------ */
+
+.btnApprove {
+margin: 2px 0 3px;
+}
+
+#group_menu_div button {
+margin-right: 10px;
+padding: 5px;
+color: #5c5c8a;
+background-color: #fff;
+border: #fff;
+}
+
+#group_menu_div button:hover  {
+background-color: #e6eeff;
+}
+
+#group_menu_div button:disabled  {
+background-color: #f0f0f5;
+color: #000000;
+}
+
+
+	
+
+
+

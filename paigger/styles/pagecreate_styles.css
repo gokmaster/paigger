@@ -1,0 +1,172 @@
+
+#textarea {
+    border: 1px solid #696996;
+    font-size: 104%;
+    height: 530px;
+    max-width: 97%;
+    overflow: auto;
+    padding: 12px;
+    resize: both;
+    background-color: #fff;
+}
+	
+#txtpagetitle {
+	width: 99.3%;
+}
+	
+#linkbox , #imagebox, #videobox  {
+	text-align:center;
+	border:solid thin #000;
+	background-color:#e0ebeb;
+	padding:12px;
+	display:none;
+	position: relative;
+}
+
+/* display inputslide when cursor is hovered over pageimage*/
+/*
+.pageimage:hover + .pageimage_inner_box { 
+  display: inline-block;
+} */
+
+.pageimage_inner_box {
+position: absolute; 
+z-index: 2; /* elements with higher index are displayed in front of elements with lower index */
+top: 40%;
+left: 50%; /*align center*/
+transform: translate(-50%, 0); /*align center*/ 
+display:inline-block;
+background-color: #f0f0f5;
+border: solid 1px #c2d1f0;
+padding: 3px;
+border-radius: 10px;
+width: 200px;
+}
+
+.editorControlsDiv {
+background-color: #f0f0f5;
+border: solid 1px #b3b3cc;
+position: relative;
+min-height: 40px;
+}
+
+#headingButtonsDiv {
+min-width: 170px;
+position: absolute;
+top: 27px;
+left: 4px;
+display: none;
+z-index: 180;
+}
+
+#advancedControlsDiv {
+display: none;
+}
+
+/*----------Buttons/Input------*/
+
+.inputslide {
+width: 180px;
+height: 20px;
+background-color: #d6e0f5;
+}
+
+.btnAlign {
+width: 34px;
+height: 35px;
+margin: 5px 6px 2px;
+border: solid 1px #c2d1f0; 
+cursor: pointer;
+}
+
+.btnImgControls {
+width: 37px;
+height: 35px;
+margin: 5px 6px 2px;
+border: solid 1px #c2d1f0; 
+cursor: pointer;
+}
+
+.btnTextEditor {
+width: 25px;
+height: 27px;
+margin: 2px 5px 0;
+padding-bottom: 2px;
+border: solid 1px #c2d1f0;
+}
+
+.activeButton {
+background-color: #ccccff !important;
+border-bottom: solid 2px #0000b3;
+padding-bottom: 0;
+}
+
+.btnTextEditor:hover, #btnShowHeadingControls:hover {
+background-color: #cce0ff !important;
+}
+
+#btnShowHeadingControls {
+background-image: url(../image/icon/downarrow.gif);
+background-size: 21px 12px;
+background-color: #f0f0f5;
+background-repeat: no-repeat;
+background-position: right; 
+padding-right: 28px;
+font-size: 85%;
+margin: 0;
+float: left;
+margin: 3px 4px 0;
+}
+
+#headingButtonsDiv input {
+background-color: #f0f0f5;
+width: 100%;
+min-height: 40px;
+}
+
+#headingButtonsDiv input:hover {
+background-color: #cce0ff !important;
+}
+
+#btnParagraph {
+font-size: 1em;
+}
+
+#btnH1 {
+font-size: 2em;
+font-weight: bold;
+}
+
+#btnH2 {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+#btnH3 {
+font-size:	1.17em;
+font-weight: bold;
+}
+
+#btnH4 {
+font-size: 1em;
+font-weight: bold;
+}
+
+#btnH5 {
+font-size: 0.83em;
+font-weight: bold;
+}
+
+#btnH6 {
+font-size: 0.67em;
+font-weight: bold;
+}
+
+#txtEnterContentHere {
+border: 0;
+font-size: 0.9em;
+}
+
+/*----------End of Buttons/Input------*/
+
+

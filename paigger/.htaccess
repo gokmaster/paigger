@@ -1,0 +1,25 @@
+# Mask original url
+
+RewriteEngine on
+
+
+# Redirect from home to index.php
+RewriteRule ^home/?$ /index.php/
+
+
+
+# ([^/\.]+) represents value of GET parameter. 
+# $1 represents first GET parameter; if there is second GET parameter, insert $2.
+# Eg. with 2 GET parameters:
+# RewriteRule ^confirm_email/([^/\.]+)/([^/\.]+)?$  /api/confirm_email.php?passkey=$1&email=$2/
+# RewriteRule ^confirm_email/([^/\.]+)?$  /api/confirm_email.php?passkey=$1/
+
+
+
+
+
+
+
+
+
+
