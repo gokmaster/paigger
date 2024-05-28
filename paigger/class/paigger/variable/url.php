@@ -6,6 +6,7 @@ class siteUrl {
 
     const sitename = "CoinPlay";
     protected $domainUrl;
+    protected $subDir = "/paigger"; // leave blank "", if web files of paigger are placed directly in public_html, else put path of sub-directory e.g. /paigger
     protected $login = '/login_form.php';
     protected $signup = '/signup_form.php';
     
@@ -17,7 +18,7 @@ class siteUrl {
     		 
     
     function get_domain_url() {
-		return $this->domainUrl;
+		return $this->domainUrl . $this->subDir;
     }
     
     function get_login_url() {
