@@ -8,6 +8,6 @@ A PHP web application that allows users to create articles and then share with t
 
 2. Import the sql file located in the "db" folder to your datebase.
 
-3. Modify database credentials in "paigger\class\gpApp\db\dbConn.php".
+3. In **paigger\class\gpApp\db** copy **dbConn-copy.php** and rename to **dbConn.php**. Modify database credentials in this file where appropriate.
 
 4. Edit variable $subDir in "paigger\class\paigger\variable\url.php" if necessary.
