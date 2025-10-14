@@ -5,10 +5,10 @@ namespace gpApp\db;
 // Connect to database
 class dbConn {
 
-    private $host = "server239.web-hosting.com";
-    private $user = "gokpstuw_root";
-    private $password = "dOo6(j.@^trS";
-    private $database = "gokpstuw_paigger";
+    private $host = "server239.example.com";
+    private $user = "root";
+    private $password = "123456";
+    private $database = "paigger";
 
     
     // localhost
